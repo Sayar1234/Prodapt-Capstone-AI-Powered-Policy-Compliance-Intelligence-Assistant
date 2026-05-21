@@ -1,0 +1,12 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+backend/data/processed/*.json
+backend/data/embeddings/*
+!backend/data/embeddings/.gitkeep
+backend/data/raw/*
+!backend/data/raw/.gitkeep
